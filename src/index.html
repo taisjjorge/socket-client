@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <title>Bate-Papo DIO</title>
+</head>
+
+<body>
+  <header id="header">
+    <div class="header-content">
+      <h1>BATE-PAPO DIO</h1>
+      <h2>Com Socket.io</h2>
+    </div>
+    <div class="header-image">
+    </div>
+  </header>
+  <div id="messages">
+    <ul id="messages-list">
+      <li class="message">
+        (23:59:00)
+        <span class="message-user">Taís</span> 
+        <span class="message-type">fala para</span> 
+        Todos: fala galerinha!!
+      </li>
+    </ul>
+  </div>
+  <footer id="footer">
+    <div class="footer-user">
+      <label for="username">Nome:</label>
+      <input type="test" id="username" />
+    </div>
+    <button id="login">Entrar</button>
+    <select id="message-type">
+      <option value="fala para">fala para</option>
+      <option value="grita para">grita para</option>
+      <option value="sussura para">sussura para</option>
+    </select>
+    <select id="message-to">
+    </select>
+    <input id="message-content" disabled>
+    <button id="message-submit" disabled>Enviar</button>
+  </footer>
+</body>
+
+</html>
